@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Management System</title>
+</head>
+<body>
+
+    <h1>Student Result Management System</h1>
+
+    <!-- Student Information -->
+    <h2>Student Information</h2>
+
+    <label>Student Name:</label>
+    <input type="text" id="studentName" placeholder="Enter Student Name">
+
+    <br><br>
+
+    <label>Roll Number:</label>
+    <input type="text" id="rollNumber" placeholder="Enter Roll Number">
+
+    <br><br>
+
+    <!-- Subject Marks -->
+    <h2>Enter Subject Marks</h2>
+
+    <label>English (25):</label>
+    <input type="text" id="english" placeholder="Enter Marks">
+
+    <br><br>
+
+    <label>Mathematics (25):</label>
+    <input type="text" id="math" placeholder="Enter Marks">
+
+    <br><br>
+
+    <label>Computer (25):</label>
+    <input type="text" id="computer" placeholder="Enter Marks">
+
+    <br><br>
+
+    <label>Physics (25):</label>
+    <input type="text" id="physics" placeholder="Enter Marks">
+
+    <br><br>
+
+    <label>Chemistry (25):</label>
+    <input type="text" id="chemistry" placeholder="Enter Marks">
+
+    <br><br>
+
+    <!-- Calculate Button -->
+    <button id="calculateBtn">Calculate Result</button>
+
+    <!-- Result Section -->
+    <!-- Result Section -->
+
+<div id="resultSection" style="display: none;">
+
+    <h2>Student Result</h2>
+
+    <p>Student Name: <span id="resultName">-</span></p>
+
+    <p>Roll Number: <span id="resultRoll">-</span></p>
+
+    <p>Total Marks: <span id="totalMarks">-</span> / 125</p>
+
+    <p>Percentage: <span id="percentage">-</span></p>
+
+    <p>Grade: <span id="grade">-</span></p>
+
+    <p>Highest Marks: <span id="highestMarks">-</span></p>
+
+    <p>Lowest Marks: <span id="lowestMarks">-</span></p>
+
+    <p>Result Status: <span id="status">-</span></p>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
